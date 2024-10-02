@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo geral */
+    color: #333; /* Cor do texto */
+}
+
+header {
+    background-color: #9b59b6; /* Lilás */
+    color: white; /* Texto em branco */
+    padding: 10px 20px;
+    position: fixed; /* Cabeçalho fixo */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white; /* Links em branco */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 70px; /* Espaço para o cabeçalho fixo */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white; /* Cor de fundo das seções */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #9b59b6; /* Lilás para o botão */
+    color: white; /* Texto em branco no botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8e44ad; /* Lilás mais escuro para hover */
+}
